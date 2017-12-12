@@ -7,6 +7,7 @@ public class Annotations implements @Custom MyInterface<@Custom String> {
   @Custom
   private String foo;
 
+  @Custom
   private Annotations(String foo) {
     this.foo = foo;
   }
